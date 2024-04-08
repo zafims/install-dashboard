@@ -28,7 +28,7 @@ Dash:3002
 6. docker-compose up -d
 
 Dozzle: Docker Log Viewer
-1. https://raw.githubusercontent.com/zafims/install-dashboard/main/dozzle.yml
+1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/dozzle.yml
 2. mv dozzle.yml docker-compose.yml
 3. mkdir /docker-compose/script/dozzle -p
 4. mv docker-compose.yml /docker-compose/script/dozzle
