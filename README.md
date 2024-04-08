@@ -16,7 +16,7 @@ it-tools:8090
 2. mv it-tools.yml docker-compose.yml
 3. mv docker-compose.yml /docker-compose/script/it-tools -p
 4. cd /docker-compose/script/it-tools
-5. docker-compose up
+5. docker-compose up -d
 
 Dash:
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/dash.yml
