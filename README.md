@@ -1,7 +1,8 @@
------------ Install Docker--------
+----------- Install Docker-----------------
 
 https://github.com/zafims/install-docker
 
+-------------------------------------------
 Homarr:
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homarr.yml
 2. mv homarr.yml docker-compose.yml
