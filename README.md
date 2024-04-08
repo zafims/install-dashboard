@@ -9,3 +9,9 @@ it-tools:
 2. mv it-tools.yml docker-compose.yml
 3. mv docker-compose.yml /docker-compose/script/it-tools
 4. docker-compose up
+
+Dash:
+1. https://raw.githubusercontent.com/zafims/install-dashboard/main/dash.yml
+2. mv dash.yml docker-compose.yml
+3. mv docker-compose.yml /docker-compose/script/dash
+4. docker-compose up
