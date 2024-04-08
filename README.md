@@ -3,7 +3,7 @@
 https://github.com/zafims/install-docker
 
 -------------------------------------------
-Homarr:
+Homarr:7575
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homarr.yml
 2. mv homarr.yml docker-compose.yml
 3. mkdir /docker-compose/script/homarr -p
