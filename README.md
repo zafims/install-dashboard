@@ -6,9 +6,10 @@ https://github.com/zafims/install-docker
 Homarr:
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homarr.yml
 2. mv homarr.yml docker-compose.yml
-3. mv docker-compose.yml /docker-compose/script/homarr -p
-4. cd /docker-compose/script/homarr
-5. docker-compose up
+3. mkdir /docker-compose/script/homarr -p
+4. mv docker-compose.yml /docker-compose/script/homarr
+5. cd /docker-compose/script/homarr
+6. docker-compose up
 
 it-tools:
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/it-tools.yml
