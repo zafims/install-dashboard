@@ -9,28 +9,31 @@ Homarr:7575
 3. mkdir /docker-compose/script/homarr -p
 4. mv docker-compose.yml /docker-compose/script/homarr
 5. cd /docker-compose/script/homarr
-6. docker-compose up
+6. docker-compose up -d
 
 it-tools:8090
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/it-tools.yml
 2. mv it-tools.yml docker-compose.yml
-3. mv docker-compose.yml /docker-compose/script/it-tools -p
-4. cd /docker-compose/script/it-tools
-5. docker-compose up -d
+3. mkdir /docker-compose/script/it-tools -p
+4. mv docker-compose.yml /docker-compose/script/it-tools
+5. cd /docker-compose/script/it-tools
+6. docker-compose up -d
 
 Dash:
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/dash.yml
 2. mv dash.yml docker-compose.yml
-3. mv docker-compose.yml /docker-compose/script/dash -p
-4. cd /docker-compose/script/dash
-5. docker-compose up
+3. mkdir /docker-compose/script/dash -p 
+4. mv docker-compose.yml /docker-compose/script/dash
+5. cd /docker-compose/script/dash
+6. docker-compose up -d
 
 Dozzle: Docker Log Viewer
 1. https://raw.githubusercontent.com/zafims/install-dashboard/main/dozzle.yml
 2. mv dozzle.yml docker-compose.yml
-3. mv docker-compose.yml /docker-compose/script/dozzle -p
-4. cd /docker-compose/script/dozzle
-5. docker-compose up
+3. mkdir /docker-compose/script/dozzle -p
+4. mv docker-compose.yml /docker-compose/script/dozzle
+5. cd /docker-compose/script/dozzle
+6. docker-compose up -d
 
 =================== Install Portainer ==============
 
