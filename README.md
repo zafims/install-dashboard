@@ -11,7 +11,7 @@ Homarr:7575
 5. cd /docker-compose/script/homarr
 6. docker-compose up
 
-it-tools:
+it-tools:8090
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/it-tools.yml
 2. mv it-tools.yml docker-compose.yml
 3. mv docker-compose.yml /docker-compose/script/it-tools -p
