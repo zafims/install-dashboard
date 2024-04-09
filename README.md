@@ -35,6 +35,14 @@ Dozzle:8888 Docker Log Viewer
 5. cd /docker-compose/script/dozzle
 6. docker-compose up -d
 
+HEIMDALL:8085
+1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/heimdall.yml
+2. mv heimdall.yml docker-compose.yml
+3. mkdir /docker-compose/script/heimdall -p
+4. mv docker-compose.yml /docker-compose/script/heimdall
+5. cd /docker-compose/script/heimdall
+6. docker-compose up -d
+
 =================== Install Portainer ==============
 
 ---> First let's create our volume, for that use the command below:
