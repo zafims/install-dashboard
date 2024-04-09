@@ -3,7 +3,7 @@
 https://github.com/zafims/install-docker
 
 -------------------------------------------
-Homepage:3000
+Homepage:3005
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homepage.yml
 2. mv homepage.yml docker-compose.yml
 3. mkdir /docker-compose/script/homepage -p
@@ -11,7 +11,7 @@ Homepage:3000
 5. cd /docker-compose/script/homepage
 6. docker-compose up -d
 
-Homarr:7575
+Homarr:3004
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homarr.yml
 2. mv homarr.yml docker-compose.yml
 3. mkdir /docker-compose/script/homarr -p
@@ -19,7 +19,7 @@ Homarr:7575
 5. cd /docker-compose/script/homarr
 6. docker-compose up -d
 
-it-tools:8090
+it-tools:3006
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/it-tools.yml
 2. mv it-tools.yml docker-compose.yml
 3. mkdir /docker-compose/script/it-tools -p
@@ -35,7 +35,7 @@ Dash:3002
 5. cd /docker-compose/script/dash
 6. docker-compose up -d
 
-Dozzle:8888 Docker Log Viewer
+Dozzle:3002 Docker Log Viewer
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/dozzle.yml
 2. mv dozzle.yml docker-compose.yml
 3. mkdir /docker-compose/script/dozzle -p
@@ -43,7 +43,7 @@ Dozzle:8888 Docker Log Viewer
 5. cd /docker-compose/script/dozzle
 6. docker-compose up -d
 
-HEIMDALL:8085
+HEIMDALL:3003
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/heimdall.yml
 2. mv heimdall.yml docker-compose.yml
 3. mkdir /docker-compose/script/heimdall -p
