@@ -15,4 +15,4 @@ services:
       - ./homarr/icons:/app/public/icons
       - ./homarr/data:/data
     ports:
-      - '7575:7575'
+      - '3004:3004'
