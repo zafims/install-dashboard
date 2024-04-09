@@ -9,7 +9,7 @@ services:
 
     # Map port 8090 on the host to port 8090 in the container
     ports:
-      - "8090:8090"
+      - "3006:3006"
 
     # Restart the container unless stopped
     restart: unless-stopped
