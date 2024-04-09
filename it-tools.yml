@@ -7,9 +7,9 @@ services:
     # Use the latest image from corentinth/it-tools
     image: "corentinth/it-tools:latest"
 
-    # Map port 8090 on the host to port 80 in the container
+    # Map port 8090 on the host to port 8090 in the container
     ports:
-      - "8090:80"
+      - "8090:8090"
 
     # Restart the container unless stopped
     restart: unless-stopped
