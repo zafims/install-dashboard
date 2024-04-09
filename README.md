@@ -3,6 +3,14 @@
 https://github.com/zafims/install-docker
 
 -------------------------------------------
+Homepage:3000
+1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homepage.yml
+2. mv homepage.yml docker-compose.yml
+3. mkdir /docker-compose/script/homepage -p
+4. mv docker-compose.yml /docker-compose/script/homepage
+5. cd /docker-compose/script/homepage
+6. docker-compose up -d
+
 Homarr:7575
 1. wget https://raw.githubusercontent.com/zafims/install-dashboard/main/homarr.yml
 2. mv homarr.yml docker-compose.yml
